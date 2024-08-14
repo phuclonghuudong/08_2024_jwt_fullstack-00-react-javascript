@@ -1,8 +1,8 @@
 {
   "name": "vite-project",
   "author": {
-    "name": "Hỏi Dân IT",
-    "url": "https://hoidanit.vn"
+    "name": "Phạm Hồng Phúc",
+    "url": ""
   },
   "private": true,
   "version": "0.0.0",
@@ -15,8 +15,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "5.4.0",
+    "antd": "5.20.1",
+    "axios": "1.7.3",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.26.0"
   },
   "devDependencies": {
     "@types/react": "18.3.3",
