@@ -19,7 +19,7 @@ const LoginPage = () => {
 
       navigate("/");
     } else {
-      notification.success({
+      notification.error({
         message: "LOGIN USER",
         description: res?.EM ?? "error",
       });
