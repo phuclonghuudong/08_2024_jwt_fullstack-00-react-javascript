@@ -6,6 +6,7 @@ export const AuthContext = createContext({
     email: "",
     name: "",
   },
+  appLoading: true,
 });
 export const AuthWrapper = (props) => {
   const [auth, setAuth] = useState({
